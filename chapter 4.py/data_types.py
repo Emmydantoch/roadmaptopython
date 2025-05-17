@@ -162,3 +162,18 @@ print(comp_value.imag)
 # Buit-in functions
 print(abs(gpa))
 print(round(gpa))
+
+
+import math
+
+print(math.pi)
+
+print(math.sqrt(16))
+print(math.ceil(gpa))
+print(math.floor(gpa))
+print(math.pow(2, 3))
+
+# casting a string to a number
+zip_code = "12345"
+zip_value = int(zip_code)
+print(type(zip_value))
