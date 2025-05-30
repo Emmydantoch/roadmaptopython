@@ -79,7 +79,7 @@ print(band)
 
 # nested dictionaries
 band4 = {
-    "name": "The Beatles",
+    "name": "The Royals",
     "members": {
         "John Lennon": {
             "instrument": "guitar",
@@ -103,21 +103,21 @@ band4 = {
 band5 = {
     "name": "The cowboys",
     "members": {
-        "John Lennon": {
-            "instrument": "guitar",
+        "moses Faraday": {
+            "instrument": "piono",
+            "birth_year": 1960,
+        },
+        "Bob Dowel": {
+            "instrument": "violin",
             "birth_year": 1940,
         },
-        "Paul McCartney": {
-            "instrument": "bass",
-            "birth_year": 1942,
+        "Peter Owen": {
+            "instrument": "sax",
+            "birth_year": 1953,
         },
-        "George Harrison": {
-            "instrument": "guitar",
-            "birth_year": 1943,
-        },
-        "Ringo Starr": {
-            "instrument": "drums",
-            "birth_year": 1940,
+        "Dickson James": {
+            "instrument": "taking drums",
+            "birth_year": 1950,
         },
     },
 }

@@ -29,8 +29,7 @@ else:
 #     "John",
 #     "Jane",
 #     "Jack",
-#     "Jill" "Jane",
-#     "Jack",
+#     "Jill",
 # ]
 # for name in names:
 #     print(name)
@@ -55,16 +54,13 @@ names = [
     "John",
     "Jane",
     "Jack",
-    "Jill" "Jane",
-    "Jack",
+    "Jill",
 ]
 actions = [
     "eat",
     "drink",
     "sleep",
     "play",
-    "work",
-    "rest",
 ]
 for name in names:
     for action in actions:

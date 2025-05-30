@@ -1,9 +1,9 @@
-# # List of tuples
-# users = ["Alice", "Bob", "Charlie"]
+# List of tuples
+users = ["Alice", "Bob", "Charlie"]
 
-# data = ["Alice", 25, "Engineer"]
+data = ["Alice", 25, "Engineer"]
 
-# emptylist = []
+emptylist = []
 
 # print("Dave" in emptylist)  # False
 # print("Alice" in users)  # True
@@ -49,8 +49,8 @@
 # users.reverse()
 # print(users)  # ['Charlie', 'Bob']
 
-# del users[1]
-# print(users)  # ['Charlie']
+del users[1]
+print(users)  # ['Charlie']
 
 # users.clear()
 # print(users)  # []
