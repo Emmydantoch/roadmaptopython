@@ -6,10 +6,10 @@
 # How to Access Them in Python:
 # You use the sys module.
 
-# import sys
+import sys
 
-# print("Script name:", sys.argv[0])  # Name of the script
-# print("Argument passed:", sys.argv[1])  # First argument
+print("Script name:", sys.argv[0])  # Name of the script
+print("Argument passed:", sys.argv[1])  # First argument
 # If you run python greet.py Dave, it will output:
 
 # Script name: greet.py
@@ -25,22 +25,23 @@
 
 # python script.py Alice 25
 
+
 # Using argparse (User-Friendly, Validated Arguments)
 
-import argparse
+# import argparse
 
-# Create the parser
-parser = argparse.ArgumentParser(description="Greet a user with their name and age.")
+# # Create the parser
+# parser = argparse.ArgumentParser(description="Greet a user with their name and age.")
 
-# Add arguments
-parser.add_argument("name", type=str, help="Your name")
-parser.add_argument("age", type=int, help="Your age")
+# # Add arguments
+# parser.add_argument("name", type=str, help="Your name")
+# parser.add_argument("age", type=int, help="Your age")
 
-# Parse arguments
-args = parser.parse_args()
+# # Parse arguments
+# args = parser.parse_args()
 
-# Use the arguments
-print(f"Hello, {args.name}! You are {args.age} years old.")
+# # Use the arguments
+# print(f"Hello, {args.name}! You are {args.age} years old.")
 
 # Run this from terminal:
 
@@ -58,9 +59,19 @@ import argparse
 
 
 # example 2
+import argparse
+
+
 def hello(name, lang):
-    greetings = {"en": "Hello", "es": "Hola", "fr": "Bonjour", "de": "Hallo"}
-    greeting = greetings.get(lang, "Hello")
+    greetings = {
+        "english": "Hello",
+        "spanish": "Hola",
+        "french": "Bonjour",
+        "german": "Hallo",
+    }
+    greeting = greetings.get(lang.lower(), "Hello")
+    if not name.strip():
+        raise ValueError("Name cannot be empty")
     return f"{greeting}, {name}!"
 
 
@@ -72,10 +83,24 @@ parser.add_argument(
     help="the name of the person to greet",
     required=True,
 )
-args = parser.parse_args()
-msg = f"Hello, {args.name}!"
-print(msg)
+parser.add_argument(
+    "-l",
+    "--lang",
+    metavar="language",
+    required=False,
+    default="english",
+    choices=["english", "spanish", "french", "german"],
+    help="language for greeting (default: english)",
+)
 
+args = parser.parse_args()
+try:
+    result = hello(args.name, args.lang)
+    print(result)
+except ValueError as e:
+    print(f"Error: {e}")
+
+# hello(args.name, args.lang)
 # Why argparse is better:
 # Gives help messages automatically (-h or --help)
 

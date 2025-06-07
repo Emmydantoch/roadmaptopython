@@ -1,14 +1,14 @@
 # # modules
-# import math
+import math
 
-# print(math.pi)
+print(math.pi)
 
 # import sys
 # print(sys.version)
 
 # sys.exit("Exiting the program...")
 
-import random
+# import random
 
 # random.choice([1, 2, 3])
 
@@ -21,7 +21,7 @@ import random
 #     GREEN = 2
 #     BLUE = 3
 
-import random as rdm
+# import random as rdm
 
 # print(dir(rdm))
 
