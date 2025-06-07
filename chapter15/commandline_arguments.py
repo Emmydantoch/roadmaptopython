@@ -101,6 +101,7 @@ except ValueError as e:
     print(f"Error: {e}")
 
 # hello(args.name, args.lang)
+
 # Why argparse is better:
 # Gives help messages automatically (-h or --help)
 
