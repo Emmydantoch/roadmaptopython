@@ -1,0 +1,61 @@
+While Python is mainly used for backend development, there are some Python-based frameworks and tools that allow or assist in building frontend UIs, especially for web, desktop, or data apps.
+
+✅ List of Python Frameworks/Tools for Frontend Development
+🖥 1. Tkinter (Standard GUI Library)
+Used for: Desktop GUI apps
+
+Pros: Built into Python, lightweight
+
+Example: Forms, dashboards, tools
+
+Docs: https://docs.python.org/3/library/tk.html
+
+🎨 2. PyQt / PySide
+Used for: Cross-platform desktop apps
+
+Based on: Qt framework
+
+Rich widgets, animations, and designer support
+
+Docs:
+
+PyQt
+
+PySide
+
+🌐 3. Anvil
+Used for: Drag-and-drop web apps with Python frontend & backend
+
+Fully Python-based (no JavaScript/HTML/CSS needed)
+
+Great for internal tools or dashboards
+
+Website: https://anvil.works
+
+📊 4. Streamlit
+Used for: Data science/web apps
+
+Super easy to turn Python scripts into shareable web apps
+
+Commonly used for dashboards, ML model demos
+
+Website: https://streamlit.io
+
+📈 5. Dash (by Plotly)
+Used for: Interactive web dashboards
+
+Designed for data visualization apps
+
+Built on top of Flask + React, but written in Python
+
+Website: https://dash.plotly.com
+
+🛠 6. Dear PyGui
+Used for: GPU-accelerated Python GUIs
+
+Ideal for tools, controls, and simple games
+
+Website: https://github.com/hoffstadt/DearPyGui
+
+⚙️ 7. FLASK with HTMX or Jinja Templates
+While Flask is backend, you can render dynamic HTML pages using Jinja2 (Flask's templating engine) or combine it with HTMX to create interactive frontends with minimal JS.

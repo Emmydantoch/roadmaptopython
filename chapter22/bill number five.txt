@@ -1,0 +1,17 @@
+
+
+"number": "4",
+                "title": "Ekiti State Environmental Sanitation (Amendment) Bill, 2025.",
+
+                "status": "first Reading",
+
+                "content": """
+                A BILL to strengthen environmental sanitation measures and enhance 
+                sustainable sanitation practices in Ekiti State.
+                
+                Amendments Cover:
+                1. Waste Disposals Standards
+                2. Environmental Impact Assessment for green house effect
+                3. Conservation Measures of Disposables
+                4. Mobulization of Labour 
+                """,

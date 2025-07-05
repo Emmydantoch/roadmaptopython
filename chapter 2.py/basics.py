@@ -62,3 +62,37 @@
 # Go to your repository on GitHub, and you should see an option to create a pull request for the new branch you just pushed.
 # Click on "New Pull Request" and follow the instructions to create a pull request.
 # Once the pull request is created, you can review the changes, add comments, and merge it into the main branch if everything looks good.
+# Basic Commands for Navigating Directories in the Terminal
+# cd <directory_name> to change to a specific directory
+# cd - to change to the previous directory
+# cd ~ to change to the home directory
+# cd / to change to the root directory
+# cd .. to change to the parent directory
+# cd . to change to the current directory
+# ls to list the contents of the current directory
+# ls -l to list the contents of the current directory in long format
+# ls -a to list all files, including hidden files, in the current directory
+# ls -lh to list the contents of the current directory in long format with human-readable file sizes
+# pwd to print the current working directory
+# mkdir <directory_name> to create a new directory
+# rmdir <directory_name> to remove an empty directory
+# rm -r <directory_name> to remove a directory and its contents recursively
+# cp <source> <destination> to copy a file or directory
+# mv <source> <destination> to move or rename a file or directory
+# touch <file_name> to create a new empty file
+# cat <file_name> to display the contents of a file
+# echo <text> to print text to the terminal
+# clear to clear the terminal screen
+# history to display the command history
+# exit to exit the terminal
+# These commands are essential for navigating and managing files and directories in the terminal.
+
+#to check your remotes
+#git remote -v
+
+#Add your remote (replace URL with your actual repo URL):
+# git remote add origin https://github.com/your-username/your-repo.git
+
+#now push your changes to the remote repository:
+#git push origin emmanuel
+
