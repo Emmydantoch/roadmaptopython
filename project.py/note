@@ -59,3 +59,69 @@ Website: https://github.com/hoffstadt/DearPyGui
 
 ⚙️ 7. FLASK with HTMX or Jinja Templates
 While Flask is backend, you can render dynamic HTML pages using Jinja2 (Flask's templating engine) or combine it with HTMX to create interactive frontends with minimal JS.
+
+what to note about a django based project.
+1. How to create a new project
+2. DFiffernce between a django project and django app.
+3. How to configure your urls
+4. How to set your views
+5. How to render your Django templates.
+6. sending dynamic datas from your view into our Template files (Html) 
+7. using Ginger to replace Html templates
+<!-- def index(request):
+    name = "Patrick"
+    return render(request, 'index.html', {'name': name}) -->
+
+    <!-- if users loging in from the data base are differnt -->
+    <!-- def index(request):
+            name = request.user.username if request.user.is_authenticated else "Guest"
+            return render(request, 'index.html', {'name': name}) -->
+
+8. Get Vs post request  %corss-site request forgery_token%      
+
+  Agenda
+  Python indept
+  Django
+    ---A blog Application
+    ---A Weather Detector Site
+    ---An e-commerce website
+
+    how to activate venv
+
+    you’re asking about activating a virtual environment (venv) in Python, not env variables. Let’s go step by step:
+
+🔹 1. Create a Virtual Environment
+
+From your project root, run:
+
+python -m venv venv
+
+
+This creates a folder named venv that contains your isolated Python environment.
+
+🔹 2. Activate the Virtual Environment
+✅ On Windows (Command Prompt)
+venv\Scripts\activate
+
+✅ On Windows (PowerShell)
+.\venv\Scripts\Activate.ps1
+
+✅ On Mac/Linux
+source venv/bin/activate
+
+🔹 3. How do you know it’s activated?
+
+Your terminal prompt will show (venv) at the beginning.
+
+Example:
+
+(venv) C:\Users\you\project>
+
+🔹 4. Deactivate
+
+To exit the virtual environment:
+
+deactivate
+
+
+⚡ Now, any packages you install with pip install ... will stay inside this venv instead of affecting your global Python.

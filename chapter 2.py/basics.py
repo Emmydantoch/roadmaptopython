@@ -87,12 +87,25 @@
 # exit to exit the terminal
 # These commands are essential for navigating and managing files and directories in the terminal.
 
-#to check your remotes
-#git remote -v
+# to check your remotes
+# git remote -v
 
-#Add your remote (replace URL with your actual repo URL):
+# Add your remote (replace URL with your actual repo URL):
 # git remote add origin https://github.com/your-username/your-repo.git
 
-#now push your changes to the remote repository:
-#git push origin emmanuel
+# now push your changes to the remote repository:
+# git push origin emmanuel
 
+# or
+# echo "# AI-ML-Predictor" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/Emmydantoch/AI-ML-Predictor.git
+# git push -u origin main
+
+
+# To push the current branch and set the remote as upstream, use        
+
+#     git push --set-upstream origin main
