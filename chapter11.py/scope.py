@@ -2,28 +2,28 @@
 name = "John"
 
 
-# def greeting(firstname):
-#     color = "blue"
-#     print(color)  # This will print "blue" because 'color' is defined in this scope
-#     print(name)
+def greeting(firstname):
+    color = "blue"
+    print(color)  # This will print "blue" because 'color' is defined in this scope
+    print(name)
 
 
 # greeting("Doe")
 # print(color)  # This will raise an error because 'color' is not defined in this scope
 
 
-# def another():
-#     greeting("John")
+def another():
+    greeting("John")
 
 
-# another()  # print(name)  # This will not raise an error because 'name' is defined in the global scope
-# caling a function inside another function
-# def another():
-#     color = "blue"
+another()  # print(name)  # This will not raise an error because 'name' is defined in the global scope
+#caling a function inside another function
+def another():
+    color = "blue"
 
-#     def greeting(firstname):
-#         print(color)  # This will print "blue" because 'color' is defined in this scope
-#         print(name)
+    def greeting(firstname):
+        print(color)  # This will print "blue" because 'color' is defined in this scope
+        print(name)
 
 #     greeting("John")
 
@@ -48,4 +48,4 @@ def another():
     greeting("John")
 
 
-another()
+# another()

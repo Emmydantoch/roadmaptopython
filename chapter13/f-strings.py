@@ -10,15 +10,15 @@ print("\n" + person + " has " + str(coins) + " coins left.")
 message = "\n%s has %d coins left." % (person, coins)
 print(message)
 
-message = "\n{} has {} coins left.".format(person, coins)
-print(message)
+# message = "\n{} has {} coins left.".format(person, coins)
+# print(message)
 
-message = "\n{1} has {0} coins left.".format(person, coins)
-print(message)
+# message = "\n{1} has {0} coins left.".format(person, coins)
+# print(message)
 
-message = "\n{person} has {coins} coins left.".format(person=person, coins=coins)
-print(message)
+# message = "\n{person} has {coins} coins left.".format(person=person, coins=coins)
+# print(message)
 
-player = {"name": "John", "coins": 30}
-message = "\n{name} has {coins} coins left.".format(**player)
-print(message)
+# player = {"name": "John", "coins": 30}
+# message = "\n{name} has {coins} coins left.".format(**player)
+# print(message)

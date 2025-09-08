@@ -4,10 +4,10 @@
 
 # hello()
 
-# def sum(num1 , num2):
-#     print(num1 + num2)
+def sum(num1 , num2):
+    print(num1 + num2)
 
-# sum(2,3)
+sum(2,3)
 # sum(1,5)
 # sum(6,8)
 
@@ -45,21 +45,21 @@
 # multiple_named_items(first="Davve", last="Sarah")
 
 
-def multiple_named_items(**kwargs):
-    print(kwargs)
-    print(type(kwargs))
+# def multiple_named_items(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
 
 
-multiple_named_items(first="Davve", last="Sarah")
+# multiple_named_items(first="Davve", last="Sarah")
 
 
-def multiple_named_items(**kwargs):
-    print(kwargs)
-    print(type(kwargs))
-    # Access individual items
-    for key, value in kwargs.items():
-        print(f"{key}: {value}")
+# def multiple_named_items(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
+#     # Access individual items
+#     for key, value in kwargs.items():
+#         print(f"{key}: {value}")
 
 
-# Test the function
-multiple_named_items(first="Dave", last="Sarah", age=25)
+# # Test the function
+# multiple_named_items(first="Dave", last="Sarah", age=25)

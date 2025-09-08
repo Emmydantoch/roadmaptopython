@@ -8,8 +8,13 @@
 
 import sys
 
-print("Script name:", sys.argv[0])  # Name of the script
-print("Argument passed:", sys.argv[1])  # First argument
+# print("Script name:", sys.argv[0])  # Name of the script
+
+# if len(sys.argv) > 1:
+#     print("Argument passed:", sys.argv[1])  # First argument
+# else:
+#     print("No argument was passed. Usage: python commandline_arguments.py <your_argument>")
+    
 # If you run python greet.py Dave, it will output:
 
 # Script name: greet.py
@@ -28,9 +33,9 @@ print("Argument passed:", sys.argv[1])  # First argument
 
 # Using argparse (User-Friendly, Validated Arguments)
 
-# import argparse
+import argparse
 
-# # Create the parser
+# # # Create the parser
 # parser = argparse.ArgumentParser(description="Greet a user with their name and age.")
 
 # # Add arguments
@@ -51,15 +56,15 @@ print("Argument passed:", sys.argv[1])  # First argument
 # framename; hello_person.py
 import argparse
 
-# parser = argparse.ArgumentParser(description="provides a personal greeting.")
-# parser.add_argument("-n", "--name", metavar="name", help="the name of the person to greet", required=True)
-# args = parser.parse_args()
-# msg = f"Hello, {args.name}!"
-# print(msg)
+parser = argparse.ArgumentParser(description="provides a personal greeting.")
+parser.add_argument("-n", "--name", metavar="name", help="the name of the person to greet", required=True)
+args = parser.parse_args()
+msg = f"Hello, {args.name}!"
+print(msg)
 
 
 # example 2
-import argparse
+# import argparse
 
 
 def hello(name, lang):
@@ -100,7 +105,7 @@ try:
 except ValueError as e:
     print(f"Error: {e}")
 
-# hello(args.name, args.lang)
+hello(args.name, args.lang)
 
 # Why argparse is better:
 # Gives help messages automatically (-h or --help)

@@ -37,8 +37,8 @@ emptylist = []
 # users.remove("Alice")
 # print(users)  # ['Eve', 'Bob', 'Charlie', 'Dave']
 
-# users[2:2] = ["Bob", "Charlie"]
-# print(users)
+users[2:2] = ["Bob", "Charlie"]
+print(users)
 
 # users.pop()
 # print(users)  # ['Bob', 'Charlie']
@@ -49,55 +49,55 @@ emptylist = []
 # users.reverse()
 # print(users)  # ['Charlie', 'Bob']
 
-del users[1]
-print(users)  # ['Charlie']
+# del users[1]
+# print(users)  # ['Charlie']
 
-# users.clear()
-# print(users)  # []
+# # users.clear()
+# # print(users)  # []
 
-nums = [10, 20, 30, 40, 50]
-nums.reverse()
-print(nums)  # [50, 40, 30, 20, 10]
-
-# nums.sort(reverse=True)
+# nums = [10, 20, 30, 40, 50]
+# nums.reverse()
 # print(nums)  # [50, 40, 30, 20, 10]
 
-print(sorted(nums))  # [10, 20, 30, 40, 50]
-print(sorted(nums, reverse=True))  # [50, 40, 30, 20, 10]
+# # nums.sort(reverse=True)
+# # print(nums)  # [50, 40, 30, 20, 10]
 
-numscopy = nums.copy()
-mynums = list(nums)
-mycopy = nums[:]
+# print(sorted(nums))  # [10, 20, 30, 40, 50]
+# print(sorted(nums, reverse=True))  # [50, 40, 30, 20, 10]
 
-print(numscopy)  # [50, 40, 30, 20, 10]
-print(mynums)  # [50, 40, 30, 20, 10]
-mycopy.sort()
-print(mycopy)  # [10, 20, 30, 40, 50]
-print(nums)  # [50, 40, 30, 20, 10]
+# numscopy = nums.copy()
+# mynums = list(nums)
+# mycopy = nums[:]
 
-print(type(nums))  # <class 'list'>
+# print(numscopy)  # [50, 40, 30, 20, 10]
+# print(mynums)  # [50, 40, 30, 20, 10]
+# mycopy.sort()
+# print(mycopy)  # [10, 20, 30, 40, 50]
+# print(nums)  # [50, 40, 30, 20, 10]
 
-mylist = list([1, "neil", True])
-print(mylist)  # [1, 'neil', True]
+# print(type(nums))  # <class 'list'>
 
-# tuple
-mytuple = tuple([12, "Emma", True])
+# mylist = list([1, "neil", True])
+# print(mylist)  # [1, 'neil', True]
 
-anothertuple = (1, 2, 3, 8)
+# # tuple
+# mytuple = tuple([12, "Emma", True])
 
-print(mytuple)  # (12, 'Emma', True)
-print(type(anothertuple))  # <class 'tuple'>
+# anothertuple = (1, 2, 3, 8)
 
-newlist = list(mytuple)
-newlist.append("sun")
-newtuple = tuple(newlist)
-print(newtuple)  # (12, 'Emma', True, 'sun')
+# print(mytuple)  # (12, 'Emma', True)
+# print(type(anothertuple))  # <class 'tuple'>
+
+# newlist = list(mytuple)
+# newlist.append("sun")
+# newtuple = tuple(newlist)
+# print(newtuple)  # (12, 'Emma', True, 'sun')
 
 
-# packing and unpacking new tuples (assigning values to a tuple)
-(one, two, *hey) = anothertuple
-print(one)  # 1
-print(two)  # 2
-print(hey)  # [3, 8]
+# # packing and unpacking new tuples (assigning values to a tuple)
+# (one, two, *hey) = anothertuple
+# print(one)  # 1
+# print(two)  # 2
+# print(hey)  # [3, 8]
 
-print(anothertuple.count(1))  # 1
+# print(anothertuple.count(1))  # 1

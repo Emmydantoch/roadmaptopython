@@ -79,16 +79,16 @@
 # print(first[1:])
 
 # Boalean data type
-myvalue = True
-x = bool(False)
-print(type(x))
-print(isinstance(myvalue, bool))
+# myvalue = True
+# x = bool(False)
+# print(type(x))
+# print(isinstance(myvalue, bool))
 
 # integer data type
-price = 100
-best_price = int(99)
-print(type(price))
-print(isinstance(best_price, int))
+# price = 100
+# best_price = int(99)
+# print(type(price))
+# print(isinstance(best_price, int))
 # print(isinstance(price, float))
 # print(isinstance(price, str))
 # print(isinstance(price, bool))
@@ -99,7 +99,7 @@ print(isinstance(best_price, int))
 # print(isinstance(price, set))
 # print(isinstance(price, range))
 # print(isinstance(price, bytes))
-print(isinstance(price, bytearray))
+# print(isinstance(price, bytearray))
 # print(isinstance(price, memoryview))
 # print(isinstance(price, object))
 # print(isinstance(price, type))
@@ -154,26 +154,26 @@ y = float(1.14)
 print(type(gpa))
 
 # complex type
-comp_value = 3 + 4j
-print(type(comp_value))
-print(comp_value.real)
-print(comp_value.imag)
+# comp_value = 3 + 4j
+# print(type(comp_value))
+# print(comp_value.real)
+# print(comp_value.imag)
 
-# Buit-in functions
-print(abs(gpa))
-print(round(gpa))
+# # Buit-in functions
+# print(abs(gpa))
+# print(round(gpa))
 
 
-import math
+# import math
 
-print(math.pi)
+# print(math.pi)
 
-print(math.sqrt(16))
-print(math.ceil(gpa))
-print(math.floor(gpa))
-print(math.pow(2, 3))
+# print(math.sqrt(16))
+# print(math.ceil(gpa))
+# print(math.floor(gpa))
+# print(math.pow(2, 3))
 
-# casting a string to a number
-zip_code = "12345"
-zip_value = int(zip_code)
-print(type(zip_value))
+# # casting a string to a number
+# zip_code = "12345"
+# zip_value = int(zip_code)
+# print(type(zip_value))

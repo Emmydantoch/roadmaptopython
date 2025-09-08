@@ -2,7 +2,7 @@
 
 # examples
 # comparison operators
-# arithmetic operators
+# arithmetic operato rs
 # addition
 # subtraction
 # multiplication
@@ -29,10 +29,10 @@
 
 # concatenating with operators
 
-# name1 = "Dave"
-# name2 = "Daniel"
-# full_name = name1 + " " + name2
-# print(full_name)
+name1 = "Dave"
+name2 = "Daniel"
+full_name = name1 + " " + name2
+print(full_name)
 
 
 # f-string
@@ -51,10 +51,10 @@
 #     print("The red car is not sold")
 
 
-redcar = "sold"
-print(" ")
+# redcar = "sold"
+# print(" ")
 
-if redcar != "sold":
-    print("The red car is sold")
-else:
-    print("The red car is not sold")
+# if redcar != "sold":
+#     print("The red car is sold")
+# else:
+#     print("The red car is not sold")
