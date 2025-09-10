@@ -84,6 +84,7 @@ what to note about a django based project.
   Django
     ---A blog Application
     ---A Weather Detector Site
+    ---Chat bot
     ---An e-commerce website
 
     how to activate venv

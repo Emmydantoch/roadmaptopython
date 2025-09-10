@@ -54,58 +54,58 @@ import argparse
 
 
 # framename; hello_person.py
-import argparse
-
-parser = argparse.ArgumentParser(description="provides a personal greeting.")
-parser.add_argument("-n", "--name", metavar="name", help="the name of the person to greet", required=True)
-args = parser.parse_args()
-msg = f"Hello, {args.name}!"
-print(msg)
-
-
-# example 2
 # import argparse
 
-
-def hello(name, lang):
-    greetings = {
-        "english": "Hello",
-        "spanish": "Hola",
-        "french": "Bonjour",
-        "german": "Hallo",
-    }
-    greeting = greetings.get(lang.lower(), "Hello")
-    if not name.strip():
-        raise ValueError("Name cannot be empty")
-    return f"{greeting}, {name}!"
+# parser = argparse.ArgumentParser(description="provides a personal greeting.")
+# parser.add_argument("-n", "--name", metavar="name", help="the name of the person to greet", required=True)
+# args = parser.parse_args()
+# msg = f"Hello, {args.name}!"
+# print(msg)
 
 
-parser = argparse.ArgumentParser(description="provides a personal greeting.")
-parser.add_argument(
-    "-n",
-    "--name",
-    metavar="name",
-    help="the name of the person to greet",
-    required=True,
-)
-parser.add_argument(
-    "-l",
-    "--lang",
-    metavar="language",
-    required=False,
-    default="english",
-    choices=["english", "spanish", "french", "german"],
-    help="language for greeting (default: english)",
-)
+# # example 2
+# # import argparse
 
-args = parser.parse_args()
-try:
-    result = hello(args.name, args.lang)
-    print(result)
-except ValueError as e:
-    print(f"Error: {e}")
 
-hello(args.name, args.lang)
+# def hello(name, lang):
+#     greetings = {
+#         "english": "Hello",
+#         "spanish": "Hola",
+#         "french": "Bonjour",
+#         "german": "Hallo",
+#     }
+#     greeting = greetings.get(lang.lower(), "Hello")
+#     if not name.strip():
+#         raise ValueError("Name cannot be empty")
+#     return f"{greeting}, {name}!"
+
+
+# parser = argparse.ArgumentParser(description="provides a personal greeting.")
+# parser.add_argument(
+#     "-n",
+#     "--name",
+#     metavar="name",
+#     help="the name of the person to greet",
+#     required=True,
+# )
+# parser.add_argument(
+#     "-l",
+#     "--lang",
+#     metavar="language",
+#     required=False,
+#     default="english",
+#     choices=["english", "spanish", "french", "german"],
+#     help="language for greeting (default: english)",
+# )
+
+# args = parser.parse_args()
+# try:
+#     result = hello(args.name, args.lang)
+#     print(result)
+# except ValueError as e:
+#     print(f"Error: {e}")
+
+# hello(args.name, args.lang)
 
 # Why argparse is better:
 # Gives help messages automatically (-h or --help)

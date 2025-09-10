@@ -33,4 +33,6 @@
 
 #.gitignore # This file is used to specify files and directories that should be ignored by Git version control. It helps keep the repository clean by excluding unnecessary files, such as virtual environment directories, compiled files, and sensitive information.
 
-# .venv 
+# .venv # This is a common name for a virtual environment directory in Python projects. It contains an isolated Python environment with its own interpreter and installed packages, allowing you to manage dependencies separately from the system-wide Python installation. 
+
+# requirements.txt # This file is used to specify the dependencies of a Python project. It lists all the packages required to run the project, along with their versions. This file can be used with pip to install the exact dependencies in a new environment.
