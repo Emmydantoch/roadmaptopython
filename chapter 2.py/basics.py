@@ -1,16 +1,16 @@
 # "greetings" == ("hello world")
 # print("greetings")
 
-# line01 = "***************"
-# line02 = "*             *"
-# line03 = "*  WELCOME!   *"
+line01 = "***************"
+line02 = "*             *"
+line03 = "*  WELCOME!   *"
 
-# print(" ")
-# print(line01)
-# print(line02)
-# print(line03)
-# print(line02)
-# print(line01)
+print(" ")
+print(line01)
+print(line02)
+print(line03)
+print(line02)
+print(line01)
 
 
 # Mastering Python Basics
@@ -40,7 +40,6 @@
 # command + shift + L to open the keyboard shortcuts panel in VSCode
 # command + shift + M to open the markdown preview panel in VSCode
 # command  + , to open the settings palette in VSCode
-# command + shift + N to open the new file panel in VSCode
 
 
 # Clone the repository to the computer:
