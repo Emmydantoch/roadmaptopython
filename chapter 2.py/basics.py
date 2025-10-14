@@ -34,7 +34,7 @@ print(line01)
 # command + shift + X to open the extensions panel in VSCode
 # command + shift + F to open the search panel in VSCode
 # command + shift + H to open the source control panel in VSCode
-# command + shift + I to open the settings panel in VSCode
+# command + shift + I to open the copilot in VSCode
 # command + shift + J to open the output panel in VSCode
 # command + shift + K to open the problems panel in VSCode
 # command + shift + L to open the keyboard shortcuts panel in VSCode
@@ -57,6 +57,10 @@ print(line01)
 
 # Push to GitHub:
 # git push origin new-feature-branch
+
+# Pull to GitHub:
+# git pull origin new-feature-branch
+# or
 # Create a pull request on GitHub:
 # Go to your repository on GitHub, and you should see an option to create a pull request for the new branch you just pushed.
 # Click on "New Pull Request" and follow the instructions to create a pull request.
