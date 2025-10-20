@@ -34,3 +34,25 @@
 # It's completely free and open-source, making it accessible to everyone.
 
 # 8. Strong Support for Data Science and Machine Learning
+
+# Example Tech Stacks
+
+# Here are a few combinations that work perfectly:
+
+# Stack Name	        Backend	                          Frontend	                   Database
+# Django + React	    Django REST Framework	          React.js	                   PostgreSQL / SQLite
+# Django + Bootstrap	Django REST Framework	          React.js	                   PostgreSQL / SQLite
+# Flask + Vue	        Flask API	                      Vue.js	                   MySQL / MongoDB
+# FastAPI + React	    FastAPI	                          React.js	                   PostgreSQL
+# Django (Full Stack)	Django templates (HTML/CSS/JS)	  None or Alpine.js	           SQLite/PostgreSQL
+
+
+#  If You’re a Beginner
+
+# Start simple:
+
+# Use Django for backend.
+
+# Use Django’s own HTML + CSS + Bootstrap + small JS frontend (no React yet).
+
+# Once you’re comfortable, create REST APIs (via DRF) and connect a modern frontend like React.
