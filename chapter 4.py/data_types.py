@@ -85,9 +85,9 @@
 # print(isinstance(myvalue, bool))
 
 # integer data type
-# price = 100
-# best_price = int(99)
-# print(type(price))
+price = 100
+best_price = int(99)
+print(type(price))
 # print(isinstance(best_price, int))
 # print(isinstance(price, float))
 # print(isinstance(price, str))
@@ -149,9 +149,9 @@
 # Efficient for large data processing, like image/video buffers.
 
 # float type
-gpa = 3.58
-y = float(1.14)
-print(type(gpa))
+# gpa = 3.58
+# y = float(1.14)
+# print(type(gpa))
 
 # complex type
 # comp_value = 3 + 4j

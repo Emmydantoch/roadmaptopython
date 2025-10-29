@@ -32,10 +32,10 @@ if player < 1 or player > 3:
 computerchoice = random.choice("123")
 computer = int(computerchoice)
 
-print("")
-print("You chose" + str(RPS(player)).replace("RPS.", "") + ".")
-print("python chose" + str(RPS(player)).replace("RPS.", "") + ".")
-print("")
+# print("")
+# print("You chose" + str(RPS(player)).replace("RPS.", "") + ".")
+# print("python chose" + str(RPS(player)).replace("RPS.", "") + ".")
+# print("")
 
 if player == computer:
     print("It's a tie!")

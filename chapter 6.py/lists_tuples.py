@@ -37,8 +37,8 @@ emptylist = []
 # users.remove("Alice")
 # print(users)  # ['Eve', 'Bob', 'Charlie', 'Dave']
 
-users[2:2] = ["Bob", "Charlie"]
-print(users)
+# users[2:2] = ["Bob", "Charlie"]
+# print(users)
 
 # users.pop()
 # print(users)  # ['Bob', 'Charlie']

@@ -29,10 +29,10 @@
 
 # concatenating with operators
 
-name1 = "Dave"
-name2 = "Daniel"
-full_name = name1 + " " + name2
-print(full_name)
+# name1 = "Dave"
+# name2 = "Daniel"
+# full_name = name1 + " " + name2
+# print(full_name)
 
 
 # f-string

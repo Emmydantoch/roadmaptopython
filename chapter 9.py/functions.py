@@ -50,7 +50,7 @@ sum(2,3)
 #     print(type(kwargs))
 
 
-# multiple_named_items(first="Davve", last="Sarah")
+# multiple_named_items("Davve", "Sarah")
 
 
 # def multiple_named_items(**kwargs):
